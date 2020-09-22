@@ -1,0 +1,66 @@
+body,
+html {
+    background-color: #e9feff; /* Цвет фона */
+    margin: 0;
+    font-family: "Comfortaa", sans-serif; /* Шрифт */
+    text-align: center;
+    font-size: medium;
+    line-height: 20px;
+}
+body {
+    min-width: 930px;
+    border: 0px double #00ffea;
+}
+a {
+    color: #00ffea; /* Цвет ссылок */
+}
+a:visited {
+    color: #00ffea; /* Цвет посещенных ссылок */
+}
+a:active {
+    color: #00ffea; /* Цвет активных ссылок */
+}
+table {
+    text-align: center; /* Выравнивание текста */
+    border-collapse: separate;
+    line-height: 1.1;
+    background-color: #292929; /* Цвет фона */
+    color: #e9e9e9;
+    border: 4px inset #00ffea; /* Параметры границы */
+    border-width: 1px double #00ffea; /* Параметры границы */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+footer,
+header,
+main {
+    background-color: #292929; /* Цвет фона */
+    border: 4px inset #00ffea; /* Параметры границы */
+    color: #e4e3e3; /* Цвет текста */
+    font-size: medium; /* Размер текста */
+}
+h1::before {
+    content: "Таблица предметов";
+    color: #292929;
+}
+p::before {
+    content: " \2603"" Математичексие";
+    font-size: 20px;
+    color: #00ffea;
+}
+nav::before {
+    content: " \2605"" Физкультура";
+    font-size: 20px;
+    color: #00ffea;
+}
+section::before {
+    content: " \2604"" Естественно-научные";
+    font-size: 20px;
+    color: #00ffea;
+}
+* {
+    position: relative;
+    padding: 18px 25px 20px;
+    margin: 0;
+    border-radius: 0px;
+}
